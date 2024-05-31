@@ -1,0 +1,298 @@
+
+body {
+  margin: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:white;
+  
+}
+
+h1{
+  font-size: 35px;
+  width: 80%;
+  
+}
+
+
+.topNav{
+  overflow: hidden;
+  background-color: #000000;
+  padding-top: 15px;
+  position: relative; 
+  
+}
+html {
+  position: relative;
+  min-height: 100%;
+  scroll-behavior: smooth;
+}
+.topNav a{
+  
+  float: right;
+  color: #ffffff;
+  padding: 12px 16px;
+  font-size: 30px;
+  text-decoration: none;
+  
+  
+}
+.vl{
+  border-left: 1px solid rgb(0, 0, 0);
+  height: 93%;
+  position: absolute;
+  left: 66.3%;
+  margin-top: 6px;
+  margin-left: -3px;
+  
+}
+
+.topNav button
+{
+  
+  float: right;
+
+}
+
+.disc{
+  margin-top: 90px;
+  border-radius: 0px;
+  margin-left: 70%;
+  height: 600px;
+  font-weight: 500;
+  width: 19%;
+  max-width: 500px;
+  border: solid 1.4px black;
+  color: rgb(0, 0, 0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  position: relative;
+  font-size: 19px;
+  background-color: rgb(255, 255, 255);
+}
+.disc2{
+  border: 1px solid rgb(0, 0, 0);
+  height: 500px;
+  width: 19%;
+  position: absolute;
+  max-width: 500px;
+  margin-top: 680px;
+  margin-left: 55%;
+
+}
+.name{
+  float: left;
+  font-size: 20px;
+}
+
+.name{
+  
+  font-size:25px ;
+  font-size: small;
+}
+
+.float-child-element { 
+  float: left; 
+  width: 50%; 
+}
+.im1{
+  border-radius: 50%;
+  width: 85%;
+  margin-left: -3.5%;
+}
+img{
+  padding-top: 10px;
+  margin-left: -40px;
+  display: block;
+  border-radius: 0%;
+  width:100%;
+  padding: 40px;
+  max-height: 900px;
+  max-width: 800px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px; left: 0; right: 0;
+  width: 100%;
+  text-align: center;
+  color: #333;
+  align-items: center;
+  height:70px;
+  
+}
+.search-box{
+  width: fit-content;
+  height: fit-content;
+  position: relative;left:-50px ;top: -10px;
+  
+}
+.input-search{
+  height: 20px;
+  width: 20px;
+  border-style: none;
+  outline: none;
+  border-radius: 25px;
+  transition: all .5s ease-in-out;
+  background-color: #ffffff;
+  padding-right: 40px;
+  color:#000000;
+  
+}
+
+.btn-search{
+  width: 30px;
+  height: 30px;
+  border-style: none;
+  font-size: 30px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  color:#000000 ;
+  background-color:transparent;
+  pointer-events: painted;  
+}
+
+
+
+@media only screen and (max-width: 950px){
+
+  body{
+    zoom: 68%;
+    font-size: 30px;
+    width: 112vw;
+  }
+  .vl{
+    display: none;
+  }
+ 
+
+
+
+
+  .input-search{
+    height: 20px;
+    width: 20px;
+    border-style: none;
+    font-family:Arial, Helvetica, sans-serif; ;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color: #ffffff;
+    padding-right: 40px;
+    color:#000000;
+  }
+  .input-search::placeholder{
+    color:rgba(255,255,255,.5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+  .btn-search{
+    width: 30px;
+    height: 30px;
+    border-style: none;
+    font-size: 30px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    
+    color:#000000 ;
+    background-color:transparent;
+    pointer-events: painted;
+    
+  }
+  .btn-search:focus ~ .input-search{
+    width: 300px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+    position: absolute;
+    
+    border-bottom:1px solid rgba(0, 0, 0, 0.5);
+
+  }
+  .input-search:focus{
+    width: 300px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(0, 0, 0, 0.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+ 
+    
+  }
+
+  .search-box{
+    position: relative;left:-4% ;top: -0px;
+  }
+
+  h1{
+    padding-left: 20px;
+    
+  }
+  .footer{
+    display: none;
+  }
+  .im1{
+    width: 60%;
+    margin-left: 15%;
+    
+  }
+  .topNav{
+    overflow: hidden;
+    height: 80px;
+    width: 125%;
+    
+    
+  }
+  h4{
+  position: relative; top: 100px; left: 20%;
+  margin-top: -50px;
+  font-size: 40px;
+}
+h1{
+  font-size: 35px;
+  width: 92%;
+  
+}
+  .disc{
+    width: 127%;
+    margin-left: 0px;
+    max-width: 130%;
+    height: 800px;
+    float: left;
+    font-size: 30px;
+ 
+  }
+  .test{
+    width:119%;
+    height: 150px;
+    float: left;
+    margin-left: 2%;
+  }
+  
+  
+  
+  .topNav a{
+    text-decoration: none;
+    font-size: 35px;
+    
+  }
+
+  .name{
+    float: left; 
+    font-size:25px ;
+    font-size: small;
+  }
+  .imgb{
+    width: 100%;
+    margin-left: -30px;
+  }
+
+}
